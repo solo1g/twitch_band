@@ -1,0 +1,61 @@
+:root {
+  --primary: #8331f5;
+  --primary-light: #9147ff;
+  --black: #262626;
+  --white: f1f1f1;
+  --font: "Inter", "Roobert", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  font-size: 13px;
+  font-family: var(--font);
+}
+
+.menu {
+  background-color: var(--black);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  color: var(--white);
+  font-weight: 600;
+  text-align: center;
+}
+
+.icon {
+  width: 100%;
+  object-fit: contain;
+  margin: 8px 12px;
+}
+
+.button {
+  background-color: var(--primary-light);
+  border-radius: 0.4rem;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  position: relative;
+  text-align: center;
+  margin: 8px;
+}
+
+.button:hover {
+  background-color: var(--primary);
+}
+
+.row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#follow-list-input {
+  margin: 4px;
+  width: 100%;
+  background-color: var(--white);
+  border-radius: 0.4rem;
+  height: 5rem;
+}
