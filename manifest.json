@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Twitch BAND",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "LULE got permad again? Classic",
   "icons": {
     "48": "icons/LULE-48.png"

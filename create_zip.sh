@@ -1,0 +1,1 @@
+zip -r dist.zip background content menu icons jsconfig.json manifest.json
